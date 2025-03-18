@@ -1,0 +1,35 @@
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  width: 252px;
+  height: 252px;
+  transform: rotate(-90deg);
+}
+
+.bgCircle {
+  fill: none;
+  stroke: var(--White-100);
+  stroke-width: 6;
+}
+
+.progressCircle {
+  fill: none;
+  stroke: var(--Pink-100);
+  stroke-width: 6;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+.text {
+  font-size: 16px;
+  fill: white;
+  font-weight: bold;
+  text-anchor: middle;
+  dominant-baseline: central;
+  transform: rotate(90deg);
+}

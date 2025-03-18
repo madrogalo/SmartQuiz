@@ -1,0 +1,16 @@
+{
+  "Texts": {
+    "choose_language": "Choose language",
+    "identify_yourself": "Please share how you identify yourself",
+    "choose_topics": "Choose up to {count} topics you like",
+    "finding_collections": "Finding collections for you...",
+    "enter_email": "Enter your email to get full access",
+    "thank_you": "Thank you",
+    "thank_you_support": "for supporting us and passing the quiz",
+    "agree_terms": "By continuing, I agree with {privacy_policy} and {terms_of_use}.",
+    "your_email": "Your email",
+    "download_answers": "Download my answers",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use"
+  }
+}

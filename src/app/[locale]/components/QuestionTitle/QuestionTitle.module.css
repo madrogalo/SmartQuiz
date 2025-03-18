@@ -1,0 +1,10 @@
+.questionTitle {
+  color: var(--Gray-040);
+  text-align: center;
+  /* font-family: "Nunito Sans"; */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.28px;
+}

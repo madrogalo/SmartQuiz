@@ -1,0 +1,16 @@
+{
+  "Texts": {
+    "choose_language": "Elegir idioma",
+    "identify_yourself": "Por favor, comparte cómo te identificas",
+    "choose_topics": "Elige hasta {count} temas que te gusten",
+    "finding_collections": "Buscando colecciones para ti...",
+    "enter_email": "Introduce tu correo electrónico para obtener acceso completo",
+    "thank_you": "Gracias",
+    "thank_you_support": "por apoyarnos y aprobar el cuestionario",
+    "agree_terms": "Al continuar, acepto la {privacy_policy} y los {terms_of_use}.",
+    "your_email": "Tu correo electrónico",
+    "download_answers": "Descargar mis respuestas",
+    "privacy_policy": "Política de privacidad",
+    "terms_of_use": "Términos de uso"
+  }
+}

@@ -1,0 +1,19 @@
+.page {
+  display: grid;
+  min-height: 100svh;
+  padding: 20px;
+  font-family: var(--font-geist-sans);
+  justify-items: center;
+}
+
+.titleSection {
+  margin-top: 45px;
+}
+
+.subtitleSection {
+  margin-top: 16px;
+}
+
+.quizSection {
+  margin-top: 24px;
+}

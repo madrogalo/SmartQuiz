@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: var(--Purple-100);
+  color: var(--White-100);
+  border: 2px solid transparent;
+  height: 76px;
+  position: relative;
+}
+
+.item.selected {
+  color: var(--White-100);
+  border-color: var(--Pink-100);
+}
+
+.single-select .item,
+.multiple-select .item {
+  width: 100%;
+  text-align: center;
+}
+
+.label {
+  font-size: 17px;
+}
+
+.bubbleSpan {
+  color: var(--White-100);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.078px;
+}
+
+.single-select-image .item {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.emoji {
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.bubbleEmoji {
+  font-size: 15px;
+  text-align: center;
+}
+
+.bubble .item {
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleImage {
+  height: 144px;
+  width: 101px;
+}
+
+.checkbox {
+  position: absolute;
+  right: 30px;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--Pink-100);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  transition: background 0.3s ease;
+  width: 23px;
+  height: 23px;
+}
+
+.checkbox:checked {
+  background: var(--Pink-100);
+  border-color: var(--Pink-100);
+  content: '\2713';
+  color: var(--White-100);
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.checkmark {
+  position: absolute;
+  color: var(--White-100);
+  right: 34px;
+  font-size: 20px;
+  font-weight: bold;
+}

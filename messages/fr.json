@@ -1,0 +1,16 @@
+{
+  "Texts": {
+    "choose_language": "Choisissez la langue",
+    "identify_yourself": "Veuillez indiquer comment vous vous identifiez",
+    "choose_topics": "Choisissez jusqu'à {count} sujets que vous aimez",
+    "finding_collections": "Recherche de collections pour vous...",
+    "enter_email": "Entrez votre e-mail pour un accès complet",
+    "thank_you": "Merci",
+    "thank_you_support": "pour votre soutien et pour avoir réussi le quiz",
+    "agree_terms": "En continuant, j'accepte la {privacy_policy} et les {terms_of_use}.",
+    "your_email": "Votre e-mail",
+    "download_answers": "Télécharger mes réponses",
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_use": "Conditions d'utilisation"
+  }
+}
