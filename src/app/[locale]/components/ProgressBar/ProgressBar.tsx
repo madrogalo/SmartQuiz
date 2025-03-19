@@ -17,10 +17,6 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({ total, current, showBa
     <div className={styles.progressContainer}>
       <div className={styles.topSection}>
         {showBackArrow && (
-          // <button className={styles.backButton} onClick={onBackClick}>
-          //   &#8592;
-          // </button>
-
           <Image
             className={styles.backArrow}
             onClick={onBackClick}

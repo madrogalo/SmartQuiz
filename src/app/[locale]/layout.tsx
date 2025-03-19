@@ -5,6 +5,7 @@ import { getMessages } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
 import { Locale } from "@/types/types";
+import { QuizProvider } from "@/app/context/QuizContext";
 
 import "./globals.css";
 
@@ -28,7 +29,9 @@ export default async function RootLayout({
   return (
     <html>
       <body>
-        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
+          <QuizProvider>{children}</QuizProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

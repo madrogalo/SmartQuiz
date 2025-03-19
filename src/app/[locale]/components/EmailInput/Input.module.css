@@ -1,0 +1,27 @@
+.input {
+  width: 100%;
+  height: 76px;
+  padding: 12px;
+  border: 2px solid var(--Purple-100);
+  border-radius: 16px;
+  background: var(--Purple-100);
+  color: var(--White-100);
+  font-size: 17px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: var(--Pink-100);
+}
+
+.input.invalid {
+  border-color: var(--Red-100);
+  color: var(--Red-100);
+}
+
+.input::placeholder {
+  color: var(--Gray-100);
+  font-size: 17px;
+
+}

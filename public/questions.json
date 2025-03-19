@@ -4,10 +4,10 @@
       "question": "What is your preferred language?",
       "subtitle": "Choose language",
       "answers": [
-        { "id": "english", "label": "English" },
-        { "id": "french", "label": "French" },
-        { "id": "german", "label": "German" },
-        { "id": "spanish", "label": "Spanish" }
+        { "id": "en", "label": "English" },
+        { "id": "fr", "label": "French" },
+        { "id": "de", "label": "German" },
+        { "id": "es", "label": "Spanish" }
       ],
       "type": "single-select"
     },
@@ -15,10 +15,10 @@
       "question": "Quelle est votre langue préférée?",
       "subtitle": "Choisir la langue",
       "answers": [
-        { "id": "english", "label": "Anglais" },
-        { "id": "french", "label": "Français" },
-        { "id": "german", "label": "Allemand" },
-        { "id": "spanish", "label": "Espagnol" }
+        { "id": "en", "label": "Anglais" },
+        { "id": "fr", "label": "Français" },
+        { "id": "de", "label": "Allemand" },
+        { "id": "es", "label": "Espagnol" }
       ],
       "type": "single-select"
     },
@@ -26,10 +26,10 @@
       "question": "Was ist Ihre bevorzugte Sprache?",
       "subtitle": "Sprache wählen",
       "answers": [
-        { "id": "english", "label": "Englisch" },
-        { "id": "french", "label": "Französisch" },
-        { "id": "german", "label": "Deutsch" },
-        { "id": "spanish", "label": "Spanisch" }
+        { "id": "en", "label": "Englisch" },
+        { "id": "fr", "label": "Französisch" },
+        { "id": "ge", "label": "Deutsch" },
+        { "id": "es", "label": "Spanisch" }
       ],
       "type": "single-select"
     },
@@ -37,10 +37,10 @@
       "question": "¿Cuál es tu idioma preferido?",
       "subtitle": "Elegir idioma",
       "answers": [
-        { "id": "english", "label": "Inglés" },
-        { "id": "french", "label": "Francés" },
-        { "id": "german", "label": "Alemán" },
-        { "id": "spanish", "label": "Español" }
+        { "id": "en", "label": "Inglés" },
+        { "id": "fr", "label": "Francés" },
+        { "id": "de", "label": "Alemán" },
+        { "id": "es", "label": "Español" }
       ],
       "type": "single-select"
     }
@@ -133,52 +133,40 @@
     "en": {
       "question": "What do you hate the most in a book?",
       "answers": [
-        { "id": "werewolf", "label": "Werewolf", "emoji": "🐺" },
-        { "id": "romance", "label": "Romance", "emoji": "🥰" },
-        { "id": "action", "label": "Action", "emoji": "💃" },
-        { "id": "young-adult", "label": "Young Adult", "emoji": "💁‍♀️" },
-        { "id": "royal-obsession", "label": "Royal Obsession", "emoji": "👑" },
-        { "id": "bad-boy", "label": "Bad Boy", "emoji": "🤠" },
-        { "id": "billionaire", "label": "Billionaire", "emoji": "🤑" }
+        { "id": "lackoflogic", "label": "Lack of logic" },
+        { "id": "slowspeed", "label": "A slow speed" },
+        { "id": "lackofhumor", "label": "Lack of humor" },
+        { "id": "waytoogenericending", "label": "Way too generic ending" }
       ],
       "type": "multiple-select"
     },
     "fr": {
       "question": "Qu'est-ce que vous détestez le plus dans un livre ?",
       "answers": [
-        { "id": "werewolf", "label": "Loup-garou", "emoji": "🐺" },
-        { "id": "romance", "label": "Romance", "emoji": "🥰" },
-        { "id": "action", "label": "Action", "emoji": "💃" },
-        { "id": "young-adult", "label": "Jeune adulte", "emoji": "💁‍♀️" },
-        { "id": "royal-obsession", "label": "Obsession royale", "emoji": "👑" },
-        { "id": "bad-boy", "label": "Mauvais garçon", "emoji": "🤠" },
-        { "id": "billionaire", "label": "Milliardaire", "emoji": "🤑" }
+        { "id": "lackoflogic", "label": "Manque de logique" },
+        { "id": "slowspeed", "label": "Une lenteur excessive" },
+        { "id": "lackofhumor", "label": "Manque d'humour" },
+        { "id": "waytoogenericending", "label": "Une fin trop générique" }
       ],
       "type": "multiple-select"
     },
     "de": {
       "question": "Was hassen Sie am meisten in einem Buch?",
       "answers": [
-        { "id": "werewolf", "label": "Werwolf", "emoji": "🐺" },
-        { "id": "romance", "label": "Romanze", "emoji": "🥰" },
-        { "id": "action", "label": "Action", "emoji": "💃" },
-        { "id": "young-adult", "label": "Junge Erwachsene", "emoji": "💁‍♀️" },
-        { "id": "royal-obsession", "label": "Königliche Besessenheit", "emoji": "👑" },
-        { "id": "bad-boy", "label": "Böser Junge", "emoji": "🤠" },
-        { "id": "billionaire", "label": "Milliardär", "emoji": "🤑" }
+        { "id": "lackoflogic", "label": "Mangel an Logik" },
+        { "id": "slowspeed", "label": "Eine zu langsame Geschwindigkeit" },
+        { "id": "lackofhumor", "label": "Mangel an Humor" },
+        { "id": "waytoogenericending", "label": "Ein viel zu allgemeines Ende" }
       ],
       "type": "multiple-select"
     },
     "es": {
       "question": "¿Qué es lo que más odias en un libro?",
       "answers": [
-        { "id": "werewolf", "label": "Hombre lobo", "emoji": "🐺" },
-        { "id": "romance", "label": "Romance", "emoji": "🥰" },
-        { "id": "action", "label": "Acción", "emoji": "💃" },
-        { "id": "young-adult", "label": "Jóvenes adultos", "emoji": "💁‍♀️" },
-        { "id": "royal-obsession", "label": "Obsesión real", "emoji": "👑" },
-        { "id": "bad-boy", "label": "Chico malo", "emoji": "🤠" },
-        { "id": "billionaire", "label": "Multimillonario", "emoji": "🤑" }
+        { "id": "lackoflogic", "label": "Falta de lógica" },
+        { "id": "slowspeed", "label": "Velocidad demasiado lenta" },
+        { "id": "lackofhumor", "label": "Falta de humor" },
+        { "id": "waytoogenericending", "label": "Un final demasiado genérico" }
       ],
       "type": "multiple-select"
     }

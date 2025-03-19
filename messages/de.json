@@ -11,6 +11,10 @@
     "your_email": "Ihre E-Mail",
     "download_answers": "Meine Antworten herunterladen",
     "privacy_policy": "Datenschutzrichtlinie",
-    "terms_of_use": "Nutzungsbedingungen"
+    "terms_of_use": "Nutzungsbedingungen",
+    "next": "Nächste",
+    "email": "E-Mail",
+    "privacyAndTerms": "Indem ich fortfahre, stimme ich der Datenschutzrichtlinie und den Nutzungsbedingungen zu.",
+    "retakequiz": "Quiz erneut starten"
   }
 }

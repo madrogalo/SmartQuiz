@@ -11,6 +11,10 @@
     "your_email": "Your email",
     "download_answers": "Download my answers",
     "privacy_policy": "Privacy Policy",
-    "terms_of_use": "Terms of Use"
+    "terms_of_use": "Terms of Use",
+    "next": "Next",
+    "email": "Email",
+    "privacyAndTerms": "By continuing I agree with Privacy Policy and Terms of Use.",
+    "retakequiz": "Retake quiz"
   }
 }

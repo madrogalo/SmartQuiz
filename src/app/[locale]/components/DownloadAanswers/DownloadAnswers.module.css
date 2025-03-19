@@ -1,0 +1,12 @@
+.downloadAnswers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Gray-500);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  cursor: pointer;
+}
