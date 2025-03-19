@@ -1,17 +1,19 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { Locale, useLocale, useTranslations } from "next-intl";
-
-import { InfoTitle } from "../components/InfoTitle";
-import { QuestionTitle } from "../components/QuestionTitle";
-import { Button } from "../components/Button";
-import { useRouter, usePathname } from "next/navigation";
-
-import { Input } from "../components/EmailInput/Input";
-import styles from "../page.module.css";
 import { useState } from "react";
 
+import { Button } from "../components/Button";
+import { Input } from "../components/EmailInput/Input";
+import { InfoTitle } from "../components/InfoTitle";
+import { QuestionTitle } from "../components/QuestionTitle";
+import styles from "../page.module.css";
+import { useQuiz } from "@/app/context/QuizContext";
+
 export default function Email() {
+  const { messages } = useQuiz();
+
   const [email, setEmail] = useState<string>("");
   const [isValid, setIsValid] = useState<boolean>(false);
 
@@ -22,6 +24,17 @@ export default function Email() {
   const router = useRouter();
 
   const goToThxPage = () => {
+    const storedData = localStorage.getItem("smartQuiz");
+    const quizData = storedData ? JSON.parse(storedData) : { questions: [] };
+
+    quizData.questions.push({
+      order: messages.length + 1,
+      title: "Email",
+      type: "Email",
+      answer: email,
+    });
+
+    localStorage.setItem("smartQuiz", JSON.stringify(quizData));
     router.push(`/${locale}/thank-you`);
   };
 
@@ -46,7 +59,7 @@ export default function Email() {
           <Input value={email} onChange={handleEmailChange} onValidationChange={handlevalidationChange} />
         </div>
         <div className={styles.privacyAndTermsSection}>
-          <div className={styles.privacyAndTermsText}>{t("privacyAndTerms")}</div>
+          <div className={styles.privacyAndTermsText}>{t("privacy_and_terms")}</div>
         </div>
 
         <div className={styles.buttonSectionEmailPage}>

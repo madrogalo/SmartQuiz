@@ -174,7 +174,7 @@
   {
     "en": {
       "question": "What are your favorite topics?",
-      "subtitle": "Choose up to {quantity} topics you like",
+      "subtitle": "Choose up to 3 topics you like",
       "quantity": 3,
       "answers": [
         { "id": "werewolf", "label": "Werewolf", "emoji": "🐺" },
@@ -189,7 +189,7 @@
     },
     "fr": {
       "question": "Quels sont vos sujets préférés ?",
-      "subtitle": "Choisissez jusqu'à {quantity} sujets que vous aimez",
+      "subtitle": "Choisissez jusqu'à 3 sujets que vous aimez",
       "quantity": 3,
       "answers": [
         { "id": "werewolf", "label": "Loup-garou", "emoji": "🐺" },
@@ -204,7 +204,7 @@
     },
     "de": {
       "question": "Was sind Ihre Lieblingsthemen?",
-      "subtitle": "Wählen Sie bis zu {quantity} Themen aus, die Sie mögen",
+      "subtitle": "Wählen Sie bis zu 3 Themen aus, die Sie mögen",
       "quantity": 3,
       "answers": [
         { "id": "werewolf", "label": "Werwolf", "emoji": "🐺" },
@@ -219,7 +219,7 @@
     },
     "es": {
       "question": "¿Cuáles son tus temas favoritos?",
-      "subtitle": "Elige hasta {quantity} temas que te gusten",
+      "subtitle": "Elige hasta 3 temas que te gusten",
       "quantity": 3,
       "answers": [
         { "id": "werewolf", "label": "Hombre lobo", "emoji": "🐺" },

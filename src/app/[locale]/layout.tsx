@@ -3,9 +3,9 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
+import { QuizProvider } from "@/app/context/QuizContext";
 import { routing } from "@/i18n/routing";
 import { Locale } from "@/types/types";
-import { QuizProvider } from "@/app/context/QuizContext";
 
 import "./globals.css";
 

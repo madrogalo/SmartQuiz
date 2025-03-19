@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import styles from "./Loader.module.css";
 
 type LoaderProps = {
@@ -9,11 +10,13 @@ export const Loader: React.FC<LoaderProps> = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    let interval = setInterval(() => {
+    const interval = setInterval(() => {
       setProgress((prev) => {
         if (prev >= 100) {
           clearInterval(interval);
-          onComplete && onComplete();
+          if (onComplete) {
+            onComplete();
+          }
           return 100;
         }
         return prev + 2;

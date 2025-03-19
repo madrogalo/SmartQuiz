@@ -54,6 +54,10 @@
   justify-content: center;
 }
 
+.quizContainer {
+  width: 760px;
+}
+
 .privacyAndTermsText {
   color: var(--Gray-100);
   text-align: center;
