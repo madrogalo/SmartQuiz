@@ -55,7 +55,7 @@
 }
 
 .quizContainer {
-  width: 760px;
+  width: 100%;
 }
 
 .privacyAndTermsText {
@@ -88,4 +88,10 @@
 
 .downloadSection {
   margin-top: 150px;
+}
+
+@media (min-width:801px) {
+  .quizContainer {
+    width: 760px;
+  }
 }
