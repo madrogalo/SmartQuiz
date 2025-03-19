@@ -19,7 +19,7 @@ export type Message = Record<Locale, QuestionData>;
 export type Messages = Message[];
 
 export interface QuizAnswer {
-  title: any;
+  title: string;
   order: number;
   question: string;
   type: "single-select" | "multiple-select" | "single-select-image" | "bubble";
@@ -28,6 +28,7 @@ export interface QuizAnswer {
 }
 
 export interface SmartQuizData {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   map(arg0: (item: any) => any[]): unknown;
   length: number;
   questions: QuizAnswer[];
